@@ -1,0 +1,13 @@
+.formBtn {
+  @apply py-2 px-8 bg-green-300 rounded-full text-white text-sm font-semibold shadow-lg mt-5;
+}
+
+.formBtn:hover {
+  @apply shadow-xl;
+  transform: translateY(-10%) scale(110%);
+}
+
+.formBtn:active {
+  @apply shadow-none;
+  transform: scale(90%);
+}

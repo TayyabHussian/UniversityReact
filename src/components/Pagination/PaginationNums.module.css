@@ -1,0 +1,7 @@
+.btnPagination {
+  @apply inline-block w-6 h-6 rounded-full shadow-sm text-white  text-center bg-sky-600 hover:shadow-xl cursor-pointer hover:scale-125 transition-all;
+}
+
+.active {
+  @apply bg-red-500 scale-125;
+}
